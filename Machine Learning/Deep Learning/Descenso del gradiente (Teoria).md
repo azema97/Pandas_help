@@ -49,10 +49,10 @@ Supongamos que tenemos una red neuronal con parámetros $\theta$ (que representa
 
 5. **Actualización de Pesos:**
    - Se actualizan los pesos utilizando la regla de actualización del gradiente descendente:
-     $ \theta_i = \theta_i - \alpha \frac{\partial J(\theta)}{\partial \theta_i} $
+     $\theta_i = \theta_i - \alpha \frac{\partial J(\theta)}{\partial \theta_i}$
      donde $\alpha$ es la tasa de aprendizaje, un hiperparámetro que controla el tamaño de los pasos de actualización.
 
 6. **Iteración:**
    - Se repiten los pasos 2-5 para múltiples ejemplos de entrenamiento y durante varias épocas hasta que la función de pérdida converja a un valor mínimo o se detenga según algún criterio predefinido.
 
-El cálculo del gradiente se realiza comúnmente mediante la retropropagación (backpropagation) en redes neuronales. La retropropagación calcula las derivadas parciales de la función de pérdida con respecto a los pesos de la red, permitiendo así la actualización de los pesos en la dirección que minimiza la pérdida. Este proceso se repite hasta que la red converge a un conjunto de pesos que produce una pérdida aceptable. Es importante ajustar la tasa de aprendizaje ($ \alpha $) para garantizar un equilibrio entre la convergencia y la estabilidad del algoritmo.
+El cálculo del gradiente se realiza comúnmente mediante la retropropagación (backpropagation) en redes neuronales. La retropropagación calcula las derivadas parciales de la función de pérdida con respecto a los pesos de la red, permitiendo así la actualización de los pesos en la dirección que minimiza la pérdida. Este proceso se repite hasta que la red converge a un conjunto de pesos que produce una pérdida aceptable. Es importante ajustar la tasa de aprendizaje ($\alpha$) para garantizar un equilibrio entre la convergencia y la estabilidad del algoritmo.
